@@ -7,3 +7,4 @@ class Bar(Foo):
 
     def bar_func(self):
         print("bar")
+        return 1
