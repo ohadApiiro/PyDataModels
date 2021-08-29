@@ -12,11 +12,9 @@ class AttrDataModel:
         bar = Bar
         self.x = bar.bar_func()
 
-bar = Bar()
-
-bar.bar_func()
 def global_func(bla):
-    pass
+    bar = Bar()
+    bar.bar_func()
 
 class A:
     def __init__(self):
